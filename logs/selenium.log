@@ -1,0 +1,189 @@
+2025-01-31 11:28:40 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - **** Test execution started **** 
+2025-01-31 11:28:40 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - config properties loaded
+2025-01-31 11:28:41 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Edge driver loaded
+2025-01-31 11:28:43 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Firefox driver loaded
+2025-01-31 11:28:47 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Navigated to URL: http://localhost:4200/
+2025-01-31 11:28:47 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Navigated to URL: http://localhost:4200/
+2025-01-31 11:28:47 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest
+2025-01-31 11:28:47 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest
+2025-01-31 11:28:47 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Clicked Sign Up Button
+2025-01-31 11:28:47 [TestNG-tests-1] ERROR testCases.TC001_AccountRegistrationTest - org.openqa.selenium.StaleElementReferenceException: The element with the reference 7dad3c4c-a74f-47ef-93b4-dde9a6e9faf0 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2135844f-bbe5-4165-a73c-24bba0045909, clickElement {id=7dad3c4c-a74f-47ef-93b4-dde9a6e9faf0}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 134.0.2, moz:accessibilityChecks: false, moz:buildID: 20250120135430, moz:debuggerAddress: 127.0.0.1:19107, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12396, moz:profile: C:\Users\hthit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:19107/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (2135844f-bbe5-4165-a73c-24bba0045909)] -> xpath: //span[normalize-space()='Sign Up']]
+Session ID: 2135844f-bbe5-4165-a73c-24bba0045909
+2025-01-31 11:28:47 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Providing registration details
+2025-01-31 11:28:48 [TestNG-tests-2] ERROR testCases.TC001_AccountRegistrationTest - org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2135844f-bbe5-4165-a73c-24bba0045909, findElement {using=xpath, value=//input[@id='email']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 134.0.2, moz:accessibilityChecks: false, moz:buildID: 20250120135430, moz:debuggerAddress: 127.0.0.1:19107, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12396, moz:profile: C:\Users\hthit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:19107/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 2135844f-bbe5-4165-a73c-24bba0045909
+2025-01-31 11:28:48 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - **** Test execution ended **** 
+2025-01-31 11:28:48 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - **** Test execution started **** 
+2025-01-31 11:28:48 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - config properties loaded
+2025-01-31 11:28:48 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - **** Test execution ended **** 
+2025-01-31 11:28:50 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - Edge driver loaded
+2025-01-31 11:28:52 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - Navigated to URL: http://localhost:4200/
+2025-01-31 11:28:52 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - **** Starting TC002_LoginTest **** 
+2025-01-31 11:28:52 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - Clicked Sign In Button
+2025-01-31 11:29:02 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - log in unsuccessful
+2025-01-31 11:29:04 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - **** Test execution ended **** 
+2025-01-31 11:29:04 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - **** Test execution started **** 
+2025-01-31 11:29:04 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - config properties loaded
+2025-01-31 11:29:06 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - Edge driver loaded
+2025-01-31 11:29:08 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - Navigated to URL: http://localhost:4200/
+2025-01-31 11:29:08 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - **** Starting TC003_LoginTestDDT ***** 
+2025-01-31 11:29:08 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - Clicked Sign In Button
+2025-01-31 11:29:20 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - **** Ending TC003_LoginTestDDT ***** 
+2025-01-31 11:29:20 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - **** Starting TC003_LoginTestDDT ***** 
+2025-01-31 11:29:20 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - Clicked Sign In Button
+2025-01-31 11:29:23 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - **** Ending TC003_LoginTestDDT ***** 
+2025-01-31 11:29:23 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - **** Starting TC003_LoginTestDDT ***** 
+2025-01-31 11:29:23 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - Clicked Sign In Button
+2025-01-31 11:29:26 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - **** Ending TC003_LoginTestDDT ***** 
+2025-01-31 11:29:26 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - **** Starting TC003_LoginTestDDT ***** 
+2025-01-31 11:29:26 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - Clicked Sign In Button
+2025-01-31 11:29:29 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - **** Ending TC003_LoginTestDDT ***** 
+2025-01-31 11:29:29 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - **** Starting TC003_LoginTestDDT ***** 
+2025-01-31 11:29:29 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - Clicked Sign In Button
+2025-01-31 11:29:31 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - **** Ending TC003_LoginTestDDT ***** 
+2025-01-31 11:29:31 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - **** Starting TC003_LoginTestDDT ***** 
+2025-01-31 11:29:31 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - Clicked Sign In Button
+2025-01-31 11:29:34 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - **** Ending TC003_LoginTestDDT ***** 
+2025-01-31 11:29:34 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - **** Starting TC003_LoginTestDDT ***** 
+2025-01-31 11:29:34 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - Clicked Sign In Button
+2025-01-31 11:29:46 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - **** Ending TC003_LoginTestDDT ***** 
+2025-01-31 11:29:46 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - **** Starting TC003_LoginTestDDT ***** 
+2025-01-31 11:29:46 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - Clicked Sign In Button
+2025-01-31 11:29:58 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - **** Ending TC003_LoginTestDDT ***** 
+2025-01-31 11:29:58 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - **** Starting TC003_LoginTestDDT ***** 
+2025-01-31 11:29:58 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - Clicked Sign In Button
+2025-01-31 11:30:11 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - **** Ending TC003_LoginTestDDT ***** 
+2025-01-31 11:30:11 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - **** Starting TC003_LoginTestDDT ***** 
+2025-01-31 11:30:11 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - Clicked Sign In Button
+2025-01-31 11:30:13 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - **** Ending TC003_LoginTestDDT ***** 
+2025-01-31 11:30:13 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - **** Starting TC003_LoginTestDDT ***** 
+2025-01-31 11:30:14 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - Clicked Sign In Button
+2025-01-31 11:30:26 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - **** Ending TC003_LoginTestDDT ***** 
+2025-01-31 11:30:26 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - **** Starting TC003_LoginTestDDT ***** 
+2025-01-31 11:30:26 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - Clicked Sign In Button
+2025-01-31 11:30:28 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - **** Ending TC003_LoginTestDDT ***** 
+2025-01-31 11:30:28 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - **** Starting TC003_LoginTestDDT ***** 
+2025-01-31 11:30:28 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - Clicked Sign In Button
+2025-01-31 11:30:31 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - **** Ending TC003_LoginTestDDT ***** 
+2025-01-31 11:30:31 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - **** Starting TC003_LoginTestDDT ***** 
+2025-01-31 11:30:31 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - Clicked Sign In Button
+2025-01-31 11:30:43 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - **** Ending TC003_LoginTestDDT ***** 
+2025-01-31 11:30:43 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - **** Starting TC003_LoginTestDDT ***** 
+2025-01-31 11:30:43 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - Clicked Sign In Button
+2025-01-31 11:30:56 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - **** Ending TC003_LoginTestDDT ***** 
+2025-01-31 11:30:56 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - **** Starting TC003_LoginTestDDT ***** 
+2025-01-31 11:30:56 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - Clicked Sign In Button
+2025-01-31 11:31:08 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - **** Ending TC003_LoginTestDDT ***** 
+2025-01-31 11:31:08 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - **** Starting TC003_LoginTestDDT ***** 
+2025-01-31 11:31:08 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - Clicked Sign In Button
+2025-01-31 11:31:20 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - **** Ending TC003_LoginTestDDT ***** 
+2025-01-31 11:31:21 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - **** Test execution ended **** 
+2025-01-31 12:04:14 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - **** Test execution started **** 
+2025-01-31 12:04:14 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - config properties loaded
+2025-01-31 12:04:17 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - Edge driver loaded
+2025-01-31 12:04:19 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - Navigated to URL: http://localhost:4200/
+2025-01-31 12:04:19 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - **** Starting TC002_LoginTest **** 
+2025-01-31 12:04:19 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - Clicked Sign In Button
+2025-01-31 12:04:29 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - log in unsuccessful
+2025-01-31 12:04:30 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - **** Test execution ended **** 
+2025-01-31 12:07:37 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - **** Test execution started **** 
+2025-01-31 12:07:37 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - config properties loaded
+2025-01-31 12:07:37 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - edge browser loaded
+2025-01-31 12:10:50 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - **** Test execution started **** 
+2025-01-31 12:10:50 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - config properties loaded
+2025-01-31 12:10:50 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - edge browser loaded
+2025-01-31 12:13:03 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - **** Test execution started **** 
+2025-01-31 12:13:03 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - config properties loaded
+2025-01-31 12:13:03 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - edge browser loaded
+2025-01-31 12:13:53 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - **** Test execution started **** 
+2025-01-31 12:13:53 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - config properties loaded
+2025-01-31 12:13:53 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - firefox browser loaded
+2025-01-31 12:15:33 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - **** Test execution started **** 
+2025-01-31 12:15:33 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - config properties loaded
+2025-01-31 12:15:33 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - chrome browser loaded
+2025-01-31 12:24:04 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - **** Test execution started **** 
+2025-01-31 12:24:04 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - config properties loaded
+2025-01-31 12:24:04 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - chrome browser loaded
+2025-01-31 12:24:08 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - Navigated to URL: http://localhost:4200/
+2025-01-31 12:24:08 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - **** Starting TC002_LoginTest **** 
+2025-01-31 12:24:08 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - Clicked Sign In Button
+2025-01-31 12:24:09 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - login successful
+2025-01-31 12:24:09 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - **** Finished TC002_LoginTest **** 
+2025-01-31 12:24:09 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - **** Test execution ended **** 
+2025-01-31 12:25:10 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - **** Test execution started **** 
+2025-01-31 12:25:10 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - config properties loaded
+2025-01-31 12:25:10 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - chrome browser loaded
+2025-01-31 12:25:13 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - Navigated to URL: http://localhost:4200/
+2025-01-31 12:25:13 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - **** Starting TC002_LoginTest **** 
+2025-01-31 12:25:13 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - Clicked Sign In Button
+2025-01-31 12:25:13 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - login successful
+2025-01-31 12:25:13 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - **** Finished TC002_LoginTest **** 
+2025-01-31 12:25:14 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - **** Test execution ended **** 
+2025-01-31 12:26:26 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - **** Test execution started **** 
+2025-01-31 12:26:26 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - config properties loaded
+2025-01-31 12:26:26 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - chrome browser loaded
+2025-01-31 12:27:09 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - Navigated to URL: http://localhost:4200/
+2025-01-31 12:27:09 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - **** Starting TC002_LoginTest **** 
+2025-01-31 12:27:09 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - Clicked Sign In Button
+2025-01-31 12:27:09 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - login successful
+2025-01-31 12:27:09 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - **** Finished TC002_LoginTest **** 
+2025-01-31 12:27:10 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - **** Test execution ended **** 
+2025-01-31 12:27:50 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - **** Test execution started **** 
+2025-01-31 12:27:50 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - config properties loaded
+2025-01-31 12:27:50 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - chrome browser loaded
+2025-01-31 12:29:35 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - **** Test execution started **** 
+2025-01-31 12:29:35 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - config properties loaded
+2025-01-31 12:29:35 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - firefox browser loaded
+2025-01-31 12:30:41 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - **** Test execution started **** 
+2025-01-31 12:30:41 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - config properties loaded
+2025-01-31 12:30:41 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - firefox browser loaded
+2025-01-31 13:18:42 [main] INFO  testCases.TC001_AccountRegistrationTest - **** Test execution started **** 
+2025-01-31 13:18:42 [main] INFO  testCases.TC001_AccountRegistrationTest - config properties loaded
+2025-01-31 13:18:43 [main] INFO  testCases.TC001_AccountRegistrationTest - Chrome driver loaded
+2025-01-31 13:18:45 [main] INFO  testCases.TC001_AccountRegistrationTest - Navigated to URL: http://localhost:4200/
+2025-01-31 13:18:45 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest
+2025-01-31 13:18:45 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked Sign Up Button
+2025-01-31 13:18:45 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing registration details
+2025-01-31 13:18:45 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
+2025-01-31 13:18:46 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Ending TC001_AccountRegistrationTest *****
+2025-01-31 13:18:46 [main] INFO  testCases.TC001_AccountRegistrationTest - **** Test execution ended **** 
+2025-01-31 13:18:46 [main] INFO  testCases.TC002_LoginTest - **** Test execution started **** 
+2025-01-31 13:18:46 [main] INFO  testCases.TC002_LoginTest - config properties loaded
+2025-01-31 13:18:47 [main] INFO  testCases.TC002_LoginTest - Chrome driver loaded
+2025-01-31 13:18:48 [main] INFO  testCases.TC002_LoginTest - Navigated to URL: http://localhost:4200/
+2025-01-31 13:18:48 [main] INFO  testCases.TC002_LoginTest - **** Starting TC002_LoginTest **** 
+2025-01-31 13:18:48 [main] INFO  testCases.TC002_LoginTest - Clicked Sign In Button
+2025-01-31 13:18:49 [main] INFO  testCases.TC002_LoginTest - login successful
+2025-01-31 13:18:49 [main] INFO  testCases.TC002_LoginTest - **** Finished TC002_LoginTest **** 
+2025-01-31 13:18:49 [main] INFO  testCases.TC002_LoginTest - **** Test execution ended **** 
+2025-01-31 13:35:02 [main] INFO  testCases.TC001_AccountRegistrationTest - **** Test execution started **** 
+2025-01-31 13:35:02 [main] INFO  testCases.TC001_AccountRegistrationTest - config properties loaded
+2025-01-31 13:35:03 [main] INFO  testCases.TC001_AccountRegistrationTest - Chrome driver loaded
+2025-01-31 13:35:05 [main] INFO  testCases.TC001_AccountRegistrationTest - Navigated to URL: http://localhost:4200/
+2025-01-31 13:35:05 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest
+2025-01-31 13:35:05 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked Sign Up Button
+2025-01-31 13:35:05 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing registration details
+2025-01-31 13:35:06 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
+2025-01-31 13:35:06 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Ending TC001_AccountRegistrationTest *****
+2025-01-31 13:35:06 [main] INFO  testCases.TC001_AccountRegistrationTest - **** Test execution ended **** 
+2025-01-31 13:35:06 [main] INFO  testCases.TC002_LoginTest - **** Test execution started **** 
+2025-01-31 13:35:06 [main] INFO  testCases.TC002_LoginTest - config properties loaded
+2025-01-31 13:35:06 [main] INFO  testCases.TC002_LoginTest - Chrome driver loaded
+2025-01-31 13:35:08 [main] INFO  testCases.TC002_LoginTest - Navigated to URL: http://localhost:4200/
+2025-01-31 13:35:08 [main] INFO  testCases.TC002_LoginTest - **** Starting TC002_LoginTest **** 
+2025-01-31 13:35:08 [main] INFO  testCases.TC002_LoginTest - Clicked Sign In Button
+2025-01-31 13:35:09 [main] INFO  testCases.TC002_LoginTest - login successful
+2025-01-31 13:35:09 [main] INFO  testCases.TC002_LoginTest - **** Finished TC002_LoginTest **** 
+2025-01-31 13:35:09 [main] INFO  testCases.TC002_LoginTest - **** Test execution ended **** 

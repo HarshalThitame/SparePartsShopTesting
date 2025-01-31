@@ -1,0 +1,37 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="isIgnoringEnabled" value="true" />
+      <option name="ignoredModules">
+        <list>
+          <option value="SPS-Tesing" />
+        </list>
+      </option>
+      <option name="ignoredPackages">
+        <list>
+          <option value="org.apache.commons:commons-compress:1.19" />
+        </list>
+      </option>
+      <option name="ignoredReasons">
+        <list>
+          <option value="Not exploitable" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="groupsTestNG" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="groups">
+        <value>
+          <list size="6">
+            <item index="0" class="java.lang.String" itemvalue="sanity" />
+            <item index="1" class="java.lang.String" itemvalue="Regression" />
+            <item index="2" class="java.lang.String" itemvalue="DataDriven" />
+            <item index="3" class="java.lang.String" itemvalue="Datadriven" />
+            <item index="4" class="java.lang.String" itemvalue="Master" />
+            <item index="5" class="java.lang.String" itemvalue="Sanity" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
